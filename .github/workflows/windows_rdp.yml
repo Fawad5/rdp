@@ -39,7 +39,7 @@ jobs:
         Write-Host "👤  Username       : runneradmin" -ForegroundColor White
         Write-Host "🔑  Password       : Password123!" -ForegroundColor White
         Write-Host "⚡  Speed          : 1 Gbps+ Direct Peer-to-Peer WireGuard Network" -ForegroundColor Green
-        Write-Host "⏱️  Duration       : 6 Hours (Max Limit)" -ForegroundColor Magenta
+        Write-Host "⏱️  Duration       : 12 Hours (Max Limit)" -ForegroundColor Magenta
         Write-Host "==================================================================" -ForegroundColor Cyan
         Write-Host ""
 
