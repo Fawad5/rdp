@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    timeout-minutes: 360
+    timeout-minutes: 720
 
     steps:
     - name: ⚙️ Enable Windows Remote Desktop (RDP) & Configure User
@@ -43,9 +43,9 @@ jobs:
         Write-Host "==================================================================" -ForegroundColor Cyan
         Write-Host ""
 
-    - name: ⏳ Keep-Alive Runner (Up to 6 Hours Active)
+    - name: ⏳ Keep-Alive Runner (Up to 12 Hours Active)
       run: |
-        $totalMinutes = 350
+        $totalMinutes = 710
         for ($i = 1; $i -le $totalMinutes; $i++) {
             Start-Sleep -Seconds 60
             if ($i % 10 -eq 0) {
